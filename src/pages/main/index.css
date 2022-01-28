@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+/* font-family: 'Major Mono Display', monospace*/
+
 html{
     scroll-behavior: smooth;
 }
@@ -14,6 +17,21 @@ body{
     width: 100vw;
     height: 100vh;
     background: radial-gradient(100% 100% at 50% 0%, rgba(177, 123, 231, 0.21) 0%, rgba(177, 123, 231, 0) 100%), #F5F5F5;
+}
+
+a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin: 15px auto;
+  width: fit-content;
+}
+a i{
+  color: #B17BE7;
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
 }
 
 .header-container{

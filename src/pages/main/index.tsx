@@ -43,6 +43,8 @@ const Main = () => {
   return (<>
     <section className="main-body">
 
+      
+
         <ToastContainer
         position="top-right"
         autoClose={2000}
@@ -82,7 +84,10 @@ const Main = () => {
         </article>
       ) : (
         <Placeholder/>
-      )}
+        )}
+      <a href="https://github.com/thiagowaib/gibberich" target="_blank">
+        <i className="devicon-github-original"/>
+      </a>
     </section>
   </>)
 }
