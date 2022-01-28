@@ -2,5 +2,5 @@
 
 ------------
 
-> Gibberich is a responsive Random Text Generator avaiable at ** <a href="https://gibberich.netlify.app" target="_blank">https://gibberich.netlify.app</a>**
+> Gibberich is a responsive Random Text Generator avaiable at **<a href="https://gibberich.netlify.app" target="_blank">https://gibberich.netlify.app</a>**
 
