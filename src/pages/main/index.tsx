@@ -40,10 +40,21 @@ const Main = () => {
     });
   }
 
+  const handleSelectCopy = (text:string|undefined) => {
+    text && navigator.clipboard.writeText(text)
+    toast.success('Copied!', {
+      position: "top-left",
+      autoClose: 1500,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+    });
+  }
+
   return (<>
     <section className="main-body">
-
-      
 
         <ToastContainer
         position="top-right"
@@ -79,6 +90,7 @@ const Main = () => {
       {canCopy ? (
         <article className="text-container">
           <Text
+          selected={(text)=>handleSelectCopy(text)}
           content={textArray}
           />
         </article>

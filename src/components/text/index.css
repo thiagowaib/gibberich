@@ -2,10 +2,25 @@
 /* font-family: 'Barlow', sans-serif;*/
 
 .content-paragraph{
-    font-family: 'Major ';
     font-family: 'Balorw', sans-serif;
     font-size: .95em;
-    line-height: 1.2em;
+    line-height: 1.3em;
     margin: 15px 0;
     text-align: justify;
+}
+
+.content-paragraph::-moz-selection { /* Code for Firefox */
+    color: #f5f5f5;
+    background: #B17BE7;
+    padding: 10px 0;
+}
+  
+.content-paragraph::selection {
+    color: #f5f5f5;
+    background: #B17BE7;
+}
+  
+
+.content-paragraph.eraseSelect{
+    user-select: none;
 }
