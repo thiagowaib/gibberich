@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+/* font-family: 'Major Mono Display', monospace*/
+
+.copy-button{
+    /* position: absolute; */
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 600;
+    color: #B17BE7;
+    -webkit-text-stroke: .5pt #B17BE7;
+    border-top: 1px solid #c7c7c7;
+    width: fit-content;
+    margin: 10px auto 0 auto;
+    padding-top: 5px;
+    transition: all .2s;
+    user-select: none;
+}
+
+.copy-button:hover{
+    cursor: pointer;
+    transform: scale(1.05)
+}
+
+.copy-button:active{
+    transform: scale(1.1);
+}

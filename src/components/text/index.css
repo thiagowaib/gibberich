@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+/* font-family: 'Barlow', sans-serif;*/
+
+.content-paragraph{
+    font-family: 'Major ';
+    font-family: 'Balorw', sans-serif;
+    font-size: .95em;
+    line-height: 1.2em;
+    margin: 15px 0;
+    text-align: justify;
+}

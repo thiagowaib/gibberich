@@ -1,8 +1,8 @@
+import { Main } from "./pages";
 function App() {
 
   return (
-   <>
-   </>
+   <Main/>
   );
 }
 
