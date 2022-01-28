@@ -9,6 +9,13 @@
     text-align: justify;
 }
 
+.content-paragraph:hover{
+    cursor: grab;
+}
+.content-paragraph:active{
+    cursor: grabbing;
+}
+
 .content-paragraph::-moz-selection { /* Code for Firefox */
     color: #f5f5f5;
     background: #B17BE7;
