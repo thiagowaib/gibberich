@@ -9,12 +9,12 @@ const Generate = (paragraphs:number):string[] => {
 
     for(let p = 0, paragraph = ""; p < paragraphs; p++, paragraph = "") {
         for( let i = 0; i < 20; i ++) {
-            let pIndex1 = Math.floor(Math.random() * 70)
-            let nIndex1 = Math.floor(Math.random() * 876)
-            let vIndex = Math.floor(Math.random() * 633)
-            let pIndex2 = Math.floor(Math.random() * 70)
-            let aIndex = Math.floor(Math.random() * 1000)
-            let nIndex2 = Math.floor(Math.random() * 876)
+            let pIndex1 = Math.floor(Math.random() * 69)
+            let nIndex1 = Math.floor(Math.random() * 875)
+            let vIndex = Math.floor(Math.random() * 632)
+            let pIndex2 = Math.floor(Math.random() * 69)
+            let aIndex = Math.floor(Math.random() * 999)
+            let nIndex2 = Math.floor(Math.random() * 875)
             let phrase = `${
               Data.prepositions[pIndex1].charAt(0).toUpperCase() + Data.prepositions[pIndex1].slice(1)
             } ${
